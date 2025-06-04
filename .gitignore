@@ -1,2 +1,5 @@
 .env
 .vscode
+/data
+/chroma_db
+/.gradio

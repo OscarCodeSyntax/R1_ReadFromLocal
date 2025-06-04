@@ -1,3 +1,5 @@
+#
+
 from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -9,8 +11,6 @@ from dotenv import load_dotenv
 import os
 #Miscellaneous operating system interfaces
 import shutil
-
-
 
 #Load environment variables
 load_dotenv()
